@@ -2,10 +2,63 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Moje Portfolio</title>
+  <title>Portfolio Wiktorii</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 50px auto; padding: 0 20px; line-height: 1.6; background: #f9f9f9; }
+    h1, h2 { color: #2c3e50; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section { margin-bottom: 50px; }
+    .project { border: 1px solid #ddd; padding: 15px; margin: 15px 0; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background: #fff;}
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill { background: #ecf0f1; padding: 5px 10px; border-radius: 5px; }
+  </style>
 </head>
 <body>
-  <h1>Witaj w moim portfolio!</h1>
-  <p>Tu pokażę swoje projekty związane z programowaniem i AI.</p>
+
+  <h1>Cześć! Jestem Wiktoria</h1>
+
+  <div class="section" id="about">
+    <h2>O mnie</h2>
+    <p>Studiuję informatykę i pasjonuję się sztuczną inteligencją. 
+    Wcześniej rozwijałam się w kierunku elektroniki i telekomunikacji, 
+    a teraz eksploruję możliwości AI w kreatywnych i edukacyjnych projektach. 
+    Interesuje mnie także kultura słowiańska, ziołolecznictwo oraz minerały, 
+    co inspiruje mnie do łączenia technologii z wiedzą o świecie.</p>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projekty</h2>
+
+    <div class="project">
+      <h3>Ezoteryczne losowanie</h3>
+      <p>Mały skrypt w Pythonie, który „losuje” codzienne porady lub cytaty w klimacie ezoterycznym.</p>
+      <a href="#">Zobacz projekt na GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>AI Korepetycje</h3>
+      <p>Prosty eksperyment w Pythonie, który generuje przykładowe zadania matematyczne i podpowiedzi krok po kroku – mini-tutor AI.</p>
+      <a href="#">Zobacz projekt na GitHub</a>
+    </div>
+
+  </div>
+
+  <div class="section" id="skills">
+    <h2>Umiejętności</h2>
+    <div class="skills">
+      <span class="skill">Python</span>
+      <span class="skill">HTML/CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Git</span>
+      <span class="skill">Podstawy AI</span>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Kontakt</h2>
+    <p>GitHub: <a href="https://github.com/wiktoriadeska" target="_blank">wiktoriadeska</a></p>
+  </div>
+
 </body>
 </html>
